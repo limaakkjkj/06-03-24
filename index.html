@@ -296,7 +296,12 @@
             txt_Senha,
             quebra,
         ]
-
+        
+        const btn_Cadastrar = (
+            <button id={"btnCadastrar"} key={"btnCadastrar"} ref={btnCadastrar} onClick={validarCampos}>
+                Cadastrar-se
+                </button>
+        )
 
         const btnCadastrar = React.createRef();
 
